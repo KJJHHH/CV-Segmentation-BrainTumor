@@ -31,8 +31,8 @@ Predict mask and class of Brain Tumor
 # Result
 > Prediction Mask: Upper half is perdicted mask, bottom half is ground truth mask 
 - U-net: 
-    [Prediction Mask](https://github.com/KJJHHH/Segmentation-Brain-Tumor/blob/main/BrainTumor_Main/result/Unet_ground_prediction.png) | 
-    [Loss and accuracy](https://github.com/KJJHHH/Segmentation-Brain-Tumor/blob/main/BrainTumor_Main/result/Unet_loss_acc.png)
+    [Prediction Mask](https://github.com/KJJHHH/Segmentation-Brain-Tumor/blob/main/result/Unet_ground_prediction.png) | 
+    [Loss and accuracy](https://github.com/KJJHHH/Segmentation-Brain-Tumor/blob/main/result/Unet_loss_acc.png)
 - Conformer U-net:
     [Prediction Mask](https://github.com/KJJHHH/Segmentation-Brain-Tumor/blob/main/result/Conformer-Unet_ground_prediction.png) | 
     [Loss and accuracy](https://github.com/KJJHHH/Segmentation-Brain-Tumor/blob/main/result/Conformer-Unet_loss_acc.png)
