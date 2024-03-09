@@ -4,8 +4,6 @@
 Predict mask and class of Brain Tumor
 
 # Dataset
-
-
 [Figshare Brain Tumor Dataset](https://www.kaggle.com/datasets/ashkhagan/figshare-brain-tumor-dataset)
 - Transform: Mask and Image
     ```python
