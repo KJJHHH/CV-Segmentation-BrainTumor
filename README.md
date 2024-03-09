@@ -15,12 +15,12 @@ Predict mask and class of Brain Tumor
         transforms.CenterCrop(224),  # Crop the image to 224x224 pixels from the center
     ])
     ``` 
-- Label: 3 Class, one-hot encoding
+- Label: 3 Class, class of tumor
 
 # Model
 - [x]  U-net
 - [x]  Conformer + CNN
-- [x]  Pretrained U-net from Pytorch, pretrained on medical data
+- [x]  Pretrained U-net from Pytorch: pretrained on medical data
 - [ ]  Pretrained U-net + self attention
 
 # Train
