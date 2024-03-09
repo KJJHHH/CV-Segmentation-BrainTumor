@@ -1,0 +1,14 @@
+checkpoint/
+__pycache__/
+data/
+epoch/
+old/
+prediction_mask/
+*hist*
+temp/
+Segmentation_paper.ipynb
+Model_Pretrain.ipynb
+*Model_Pretrain*
+*.pt*
+*Yolo*
+*YOLO*
