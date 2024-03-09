@@ -20,7 +20,7 @@ Predict mask and class of Brain Tumor
 # Model
 - [x]  U-net
 - [x]  Conformer + CNN
-- [x]  Pretrained U-net from Pytorch
+- [x]  Pretrained U-net from Pytorch, pretrained on medical data
 - [ ]  Pretrained U-net + self attention
 
 # Train
@@ -30,9 +30,18 @@ Predict mask and class of Brain Tumor
 
 # Result
 > Prediction Mask: Upper half is perdicted mask, bottom half is ground truth mask 
-- U-net
-    - [Prediction Mask](https://github.com/KJJHHH/Segmentation-Brain-Tumor/blob/main/BrainTumor_Main/result/Unet_ground_prediction.png), [Loss and accuracy](https://github.com/KJJHHH/Segmentation-Brain-Tumor/blob/main/BrainTumor_Main/result/Unet_loss_acc.png)
-- Conformer U-net
-- Adding Mask to Image
-- Adding Noise to Image
-- Adding Mask and Noise to Image# Segmentation-Brain-Tumor
+- U-net: 
+    [Prediction Mask](https://github.com/KJJHHH/Segmentation-Brain-Tumor/blob/main/BrainTumor_Main/result/Unet_ground_prediction.png), 
+    [Loss and accuracy](https://github.com/KJJHHH/Segmentation-Brain-Tumor/blob/main/BrainTumor_Main/result/Unet_loss_acc.png)
+- Conformer U-net:
+    [Prediction Mask](https://github.com/KJJHHH/Segmentation-Brain-Tumor/blob/main/result/Conformer-Unet_ground_prediction.png)
+    [Loss and accuracy](https://github.com/KJJHHH/Segmentation-Brain-Tumor/blob/main/result/Conformer-Unet_loss_acc.png)
+- Pretrain U-net:
+    [Prediction Mask](https://github.com/KJJHHH/Segmentation-Brain-Tumor/blob/main/result/Pretrain_Unet_Medical_ground_prediction.png)
+    [Loss and accuracy](https://github.com/KJJHHH/Segmentation-Brain-Tumor/blob/main/result/Pretrain_Unet_Medical_loss_acc.png)
+- Adding Mask to Image (From Unet)
+    [Prediction Mask](https://github.com/KJJHHH/Segmentation-Brain-Tumor/blob/main/result/Unet-mix_ground_prediction.png)
+    [Loss and accuracy](https://github.com/KJJHHH/Segmentation-Brain-Tumor/blob/main/result/Unet-mix_loss_acc.png)
+- Adding Noise to Image (From Unet)
+    [Prediction Mask](https://github.com/KJJHHH/Segmentation-Brain-Tumor/blob/main/result/Unet-noise_ground_prediction.png)
+    [Loss and accuracy](https://github.com/KJJHHH/Segmentation-Brain-Tumor/blob/main/result/Unet-noise_loss_acc.png)
